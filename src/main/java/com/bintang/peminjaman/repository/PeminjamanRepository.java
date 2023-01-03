@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 
 /**
  *
- * @author LABSIDOSEN
+ * @author Bintang
  */
 @Repository
 public interface PeminjamanRepository extends JpaRepository<Peminjaman, Long> {

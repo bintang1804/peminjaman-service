@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  *
- * @author LABSIDOSEN
+ * @author Bintang
  */
 @RestController
 @RequestMapping("/peminjaman")

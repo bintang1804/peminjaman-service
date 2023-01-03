@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 
 /**
  *
- * @author LABSIDOSEN
+ * @author Bintang
  */
 @Entity
 @Data

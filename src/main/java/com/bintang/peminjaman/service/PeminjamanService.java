@@ -15,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  *
- * @author LABSIDOSEN
+ * @author Bintang
  */
 @Service
 public class PeminjamanService {
@@ -36,7 +36,8 @@ public class PeminjamanService {
         Anggota anggota = 
         restTemplate.getForObject("http://localhost:9027/anggota/"
                 + peminjaman.getAnggotaId(), Anggota.class);
-        Buku buku = restTemplate.getForObject("http://localhost:9003/buku/" 
+        Buku buku = 
+        restTemplate.getForObject("http://localhost:9003/buku/" 
                 + peminjaman.getBukuId(), Buku.class);
         vo.setPeminjaman(peminjaman);
         vo.setAnggota(anggota); 
